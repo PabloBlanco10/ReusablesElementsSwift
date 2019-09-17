@@ -12,7 +12,6 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ReusableFooter" customModule="ExampleReusableViews" customModuleProvider="target">
             <connections>
-                <outlet property="containerView" destination="wKT-ko-Vj2" id="bIW-R3-fQd"/>
                 <outlet property="footerText" destination="xbF-cT-rZK" id="pHU-xU-5h1"/>
             </connections>
         </placeholder>

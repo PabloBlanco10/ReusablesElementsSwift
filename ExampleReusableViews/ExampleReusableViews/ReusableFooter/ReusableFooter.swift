@@ -10,7 +10,6 @@ import UIKit
 
 class ReusableFooter: UIView {
 
-    @IBOutlet weak var containerView: UIView!
     @IBOutlet weak var footerText: UILabel!
     let nibName = "ReusableFooter"
     
@@ -26,9 +25,8 @@ class ReusableFooter: UIView {
     
     func commonInit() {
         guard let view = loadViewFromNib() else { return }
-        view.frame = self.bounds
-        self.addSubview(view)
-        containerView = view
+        view.frame = bounds
+        addSubview(view)
     }
     
     func loadViewFromNib() -> UIView? {
